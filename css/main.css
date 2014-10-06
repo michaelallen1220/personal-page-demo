@@ -33,3 +33,34 @@ header a:focus {
 	background-color: #CC0000;
 }
 
+#about, #projects {
+	background-color: #F4B136;
+	overflow: auto;
+}
+
+#education, #contact {
+	background-color: #06FF10
+}
+
+footer {
+	background-color: #DC2526
+}
+
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+	opacity: 1;
+}
+
+#about img:hover {
+	opacity: .5;
+}
+
+#projects dl dt {
+	font-weight: bold;
+}
+
+.tag-line {
+	color: #AD67F3;
+}
